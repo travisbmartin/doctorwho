@@ -1,9 +1,386 @@
 #config_version=5
 
 lights:
-
-  l_example:
+  l_ESCAPE_E1:
     number: l11
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_S:
+    number: l12
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_C:
+    number: l13
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_A:
+    number: l14
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_P:
+    number: l15
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_E2:
+    number: l16
+    subtype: matrix
+    label:
+    tags:
+
+  l_Left_Drain:
+    number: l17
+    subtype: matrix
+    label:
+    tags:
+
+  l_Left_Return:
+    number: l18
+    subtype: matrix
+    label:
+    tags:
+
+  l_Right_Return:
+    number: l21
+    subtype: matrix
+    label:
+    tags:
+
+  l_Right_Drain:
+    number: l22
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_7:
+    number: l23
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_Special:
+    number: l24
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_3Mil:
+    number: l25
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_2Mil:
+    number: l26
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_1Mil:
+    number: l27
+    subtype: matrix
+    label:
+    tags:
+
+  l_ESCAPE_500K:
+    number: l28
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Top_Left_1:
+    number: l31
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Top_Left_2:
+    number: l32
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Top_Middle:
+    number: l33
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Top_Right_2:
+    number: l34
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Top_Right_1:
+    number: l35
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_2:
+    number: l36
+    subtype: matrix
+    label:
+    tags:
+
+  l_Hangon_Score:
+    number: l37
+    subtype: matrix
+    label:
+    tags:
+
+  l_Video_Mode:
+    number: l38
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Middle_Left_1:
+    number: l41
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Middle_Left_2:
+    number: l42
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Middle_Middle:
+    number: l43
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Middle_Right_2:
+    number: l44
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Middle_Right_1:
+    number: l45
+    subtype: matrix
+    label:
+    tags:
+
+  l_Transmat_award:
+    number: l46
+    subtype: matrix
+    label:
+    tags:
+
+  l_TARDIS:
+    number: l47
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_1:
+    number: l48
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Bottom_Left_1:
+    number: l51
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Bottom_Left_2:
+    number: l52
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Bottom_Middle:
+    number: l53
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Bottom_Right_2:
+    number: l54
+    subtype: matrix
+    label:
+    tags:
+
+  l_5x3_Bottom_Right_1:
+    number: l55
+    subtype: matrix
+    label:
+    tags:
+
+  l_Mini_Left_Lock:
+    number: l56
+    subtype: matrix
+    label:
+    tags:
+
+  l_Mini_Right_Lock:
+    number: l57
+    subtype: matrix
+    label:
+    tags:
+
+  l_Mini_Target:
+    number: l58
+    subtype: matrix
+    label:
+    tags:
+
+  l_REPAIR_R1:
+    number: l61
+    subtype: matrix
+    label:
+    tags:
+
+  l_REPAIR_E:
+    number: l62
+    subtype: matrix
+    label:
+    tags:
+
+  l_REPAIR_P:
+    number: l63
+    subtype: matrix
+    label:
+    tags:
+
+  l_REAPAIR_A:
+    number: l64
+    subtype: matrix
+    label:
+    tags:
+
+  l_REAPAIR_I:
+    number: l65
+    subtype: matrix
+    label:
+    tags:
+
+  l_REPAIR_R2:
+    number: l66
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_5:
+    number: l67
+    subtype: matrix
+    label:
+    tags:
+
+  l_Shoot_Again:
+    number: l68
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_4:
+    number: l71
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_6:
+    number: l72
+    subtype: matrix
+    label:
+    tags:
+
+  l_1_5X:
+    number: l73
+    subtype: matrix
+    label:
+    tags:
+
+  l_2X:
+    number: l74
+    subtype: matrix
+    label:
+    tags:
+
+  l_2_5X:
+    number: l75
+    subtype: matrix
+    label:
+    tags:
+
+  l_3X:
+    number: l76
+    subtype: matrix
+    label:
+    tags:
+
+  l_3_5X:
+    number: l77
+    subtype: matrix
+    label:
+    tags:
+
+  l_4X:
+    number: l78
+    subtype: matrix
+    label:
+    tags:
+
+  l_WHO_W:
+    number: l81
+    subtype: matrix
+    label:
+    tags:
+
+  l_Doctor_3:
+    number: l82
+    subtype: matrix
+    label:
+    tags:
+
+  l_WHO_1Mil:
+    number: l83
+    subtype: matrix
+    label:
+    tags:
+
+  l_WHO_2Mil:
+    number: l84
+    subtype: matrix
+    label:
+    tags:
+
+  l_WHO_Extra_Ball:
+    number: l85
+    subtype: matrix
+    label:
+    tags:
+
+  l_Transmat_Advance_Bonus:
+    number: l86
+    subtype: matrix
+    label:
+    tags:
+
+  l_Launch_Ball:
+    number: l87
+    subtype: matrix
+    label:
+    tags:
+
+  l_Game_Start:
+    number: l88
     subtype: matrix
     label:
     tags:

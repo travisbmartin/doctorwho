@@ -7,7 +7,7 @@ driverboards: wpc
 mpf-mc:
   fps: 60
 
-virtual_platform_start_active_switches: s_trough_1 s_trough_2 s_trough_3 s_trough_4 s_trough_5
+virtual_platform_start_active_switches: s_trough_1 s_trough_2 s_trough_3
 
 sound_system:
   tracks:

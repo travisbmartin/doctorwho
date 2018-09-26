@@ -1,5 +1,8 @@
 #config_version=5
-# powerman
+# Doctor Who
+
+platform: p_roc
+driverboards: wpc
 
 mpf-mc:
   fps: 60

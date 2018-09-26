@@ -2,18 +2,328 @@
 
 
 switches:
-  s_left_flipper:
-    number: 0 
-    tags: left_flipper
 
-  s_trough_3:
-    number: 38
-    tags: 
+#Switch Matrix
 
-  s_trough_2:
-    number: 39
+  #s_Not_Used:
+  #  number: s11 
+  #  tags: 
+
+  #s_Not_Used:
+  #  number: s12
+  #  tags:
+
+  s_Start_Button:
+    number: s13
+    tags:
+
+  s_Plimb_Bob_Tilt:
+    number: s14
+    tags: Tilt
+
+  s_Left_Sling:
+    number: s15
+    tags:
+
+  s_Right_Sling:
+    number: s16
+    tags:
+
+  s_Shooter_Lane:
+    number: s17
+    tags:
+
+  s_Exit_Jets:
+    number: s18
+    tags:
+
+  s_Slam_Tilt:
+    number: s21
+    tags: Tilt
+
+  s_Coin_Door_Closed:
+    number: s22
+    tags:
+
+  s_Ticket_Opto:
+    number: s23
+    tags:
+
+  s_Always_Closed:
+    number: s24
     tags:
 
   s_trough_1:
-    number: 40
+    number: s25
     tags: 
+
+  s_trough_2:
+    number: s26
+    tags:
+
+  s_trough_3:
+    number: s27
+    tags: 
+
+  s_Outhole:
+    number: s28
+    tags:
+
+  s_Opto_Popper:
+    number: s31
+    tags:
+
+  s_Mini_Home_Opto:
+    number: s32
+    tags:
+
+  s_Enter_Top_Ramp_Opto:
+    number: s33
+    tags:
+
+  s_Launch_Ball:
+    number: s34
+    tags:
+
+  s_Score_Top_Ramp:
+    number: s35
+    tags:
+
+  s_Enter_Bottom_Ramp:
+    number: s36
+    tags:
+
+  s_Score_Bottom_Ramp:
+    number: s37
+    tags:
+
+  s_Mini_Dalek_Middle:
+    number: s38
+    tags:
+
+  s_ESCAPE_E1:
+    number: s41
+    tags:
+
+  s_ESCAPE_S:
+    number: s42
+    tags:
+
+  s_ESCAPE_C:
+    number: s43
+    tags:
+
+  s_ESCAPE_A:
+    number: s44
+    tags:
+
+  s_ESCAPE_P:
+    number: s45
+    tags:
+
+  s_ESCAPE_E2:
+    number: s46
+    tags:
+
+  s_Hangon_Score:
+    number: s47
+    tags:
+
+  s_Select_Doctor:
+    number: s48
+    tags:
+
+  s_REPAIR_R1:
+    number: s51
+    tags:
+
+  s_REPAIR_E:
+    number: s52
+    tags:
+
+  s_REPAIR_P:
+    number: s53
+    tags:
+
+  s_REPAIR_A:
+    number: s54
+    tags:
+
+  s_REPAIR_I:
+    number: s55
+    tags:
+
+  s_REPAIR_R2:
+    number: s56
+    tags:
+
+  s_Trap_Door_Down:
+    number: s57
+    tags:
+
+  s_Transmat_Award:
+    number: s58
+    tags:
+
+  s_Left_Jet:
+    number: s61
+    tags:
+
+  s_Right_Jet:
+    number: s62
+    tags:
+
+  s_Bottom_Jet:
+    number: s63
+    tags:
+
+  s_Left_Drain:
+    number: s64
+    tags:
+
+  s_Left_Return:
+    number: s65
+    tags:
+
+  s_Right_Return:
+    number: s66
+    tags:
+
+  s_Right_Drain:
+    number: s67
+    tags:
+
+  s_Mini_Dalek_Left:
+    number: s68
+    tags:
+
+  s_Mini_Opto_5_Bank_Right_1:
+    number: s71
+    tags:
+
+  s_Mini_Opto_5_Bank_Right_2:
+    number: s72
+    tags:
+
+  s_Mini_Opto_5_Bank_Middle:
+    number: s73
+    tags:
+
+  s_Mini_Opto_5_Bank_Left_2:
+    number: s74
+    tags:
+
+  s_Mini_Opto_5_Bank_Left_1:
+    number: s75
+    tags:
+
+  s_Mini_Left_Opto_Eject:
+    number: s76
+    tags:
+
+  s_Mini_Right_Opto_Eject:
+    number: s77
+    tags:
+
+  s_Mini_Lite_Lock:
+    number: s78
+    tags:
+
+  #s_Not_Used:
+  #  number: s81
+  #  tags:
+
+  #s_Not_Used:
+  #  number: s82
+  #  tags:
+
+  #  s_Not_Used:
+  #  number: s83
+  #  tags:
+
+  #s_Not_Used:
+  #  number: s84
+  #  tags:
+
+  #  s_Not_Used:
+  #  number: s85
+  #  tags:
+
+  #s_Not_Used:
+  #  number: s86
+  #  tags:
+
+  #  s_Not_Used:
+  #  number: s87
+  #  tags:
+
+  s_Mini_Dalek_Right:
+    number: s88
+    tags:
+
+#Direct Switches
+  s_Left_Coin:
+    number: sd1
+    tags:
+
+  s_Center_Coin:
+    number: sd2
+    tags:
+
+  s_Right_Coin:
+    number: sd3
+    tags:
+
+  s_4th_Coin:
+    number: sd4
+    tags:
+
+  s_Service_Credit:
+    number: sd5
+    tags:
+
+  s_Volume_Down:
+    number: sd6
+    tags:
+
+  s_Volume_Up:
+    number: sd7
+    tags:
+
+  s_Test:
+    number: sd8
+    tags:
+
+#Flipper Switches
+
+  s_Right_Flipper_EOS:
+    number: sf1
+    tags:
+
+  s_Right_Flipper_Opto:
+    number: sf2
+    tags: Player, Right_Flipper
+
+  s_Left_Flipper_EOS:
+    number: sf3
+    tags:
+
+  s_Left_Flipper_Opto:
+    number: sf4
+    tags: Player, Left_Flipper
+
+  s_Upper_Right_Flipper_EOS:
+    number: sf5
+    tags:
+
+  s_Upper_Right_Flipper_Opto:
+    number: sf6
+    tags: Player, Upper_Right_Flipper
+
+  s_Upper_Left_Flipper_EOS:
+    number: sf7
+    tags:
+
+  s_Upper_Left_Flipper_Opto:
+    number: sf8
+    tags: Player, Upper_Left_Flipper

@@ -1,17 +1,30 @@
 #config_version=5
 
 flippers: 
-    left_flipper: 
-        main_coil: c_flipper_left_main 
-        hold_coil: c_flipper_left_hold 
-        activation_switch: s_left_flipper
+  left_flipper: 
+    main_coil: c_flipper_left_main 
+    hold_coil: c_flipper_left_hold 
+    activation_switch: s_left_flipper_opto
+    labels: Left Main Flipper
         
-    right_flipper: 
-        main_coil: c_flipper_right_main 
-        hold_coil: c_flipper_right_hold 
-        activation_switch: s_right_flipper
+  right_flipper: 
+    main_coil: c_flipper_right_main 
+    hold_coil: c_flipper_right_hold 
+    activation_switch: s_right_flipper_opto
+    labels: Right Main Flipper
 
-    upper_left_flipper: 
-        main_coil: c_flipper_upper_left_main 
-        hold_coil: c_flipper_upper_left_hold 
-        #activation_switch: s_upper_left_flipper
+  upper_left_flipper: 
+    main_coil: c_flipper_upper_left_main 
+    hold_coil: c_flipper_upper_left_hold 
+    activation_switch: s_upper_left_flipper_opto
+    enable_events: ball_started, enable_upper_flippers
+    disable_events: ball_will_end, service_mode_entered, disable_upper_flippers
+    labels: Left Upper Flipper   
+
+  upper_right_flipper: 
+    main_coil: c_flipper_upper_right_main 
+    hold_coil: c_flipper_upper_right_hold 
+    activation_switch: s_upper_right_flipper_opto
+    enable_events: ball_started, enable_upper_flippers
+    disable_events: ball_will_end, service_mode_entered, disable_upper_flippers
+    labels: Right Upper Flipper

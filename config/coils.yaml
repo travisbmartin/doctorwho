@@ -37,7 +37,7 @@ coils:
     number: c11
     default_pulse_ms: 25
 
-  c_Rigjt_Jet:
+  c_Right_Jet:
     number: c12
     default_pulse_ms: 25
 

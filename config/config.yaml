@@ -30,7 +30,7 @@ config:
 
 widget_styles:
   text_default:
-    font_name: psycha3
+    font_name: DEADJIM
     font_size: 16
     adjust_top: 2
     adjust_bottom: 3

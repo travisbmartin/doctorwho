@@ -1,8 +1,9 @@
 #config_version=5
 # Doctor Who
 
-platform: p_roc
-driverboards: wpc
+hardware:
+  platform: p_roc
+  driverboards: wpc
 
 mpf-mc:
   fps: 60

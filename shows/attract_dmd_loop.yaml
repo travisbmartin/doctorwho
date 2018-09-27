@@ -8,7 +8,7 @@
     - type: rectangle
       width: 128
       height: 32
-
+      
 - time: '+2'
   slides:
     attract_dmd_loop_slide_2:
@@ -20,22 +20,13 @@
       - type: image
         image: test
 
-- time: '+3'
-  slides:
-    attract_dmd_loop_slide_2.5:
-    - type: video
-      video: attract
-      volume: 1
-      auto_play: True
-      end_behavior: stop
-
-- time: '+51'
+- time: '+5'
   slides:
     attract_dmd_loop_slide_3:
     - type: text
       text: (machine|credits_string)
 
-- time: '+2'
+- time: '+3'
   slides:
     attract_dmd_loop_slide_4:
     - type: text
@@ -55,16 +46,7 @@
       width: 128
       height: 32
 
-- time: +2s
-  slides:
-    attract_dmd_loop_slide_4.5:
-    - type: video
-      video: spinning
-      volume: 0
-      auto_play: True
-      end_behavior: stop
-
-- time: '+8'
+- time: '+3'
   slides:
     attract_dmd_loop_slide_5:
       transition:
@@ -86,6 +68,7 @@
         number_grouping: true
         y: bottom+3
         x: left+10
+
 - time: '+2'
   slides:
     attract_dmd_loop_slide_6:
@@ -109,6 +92,7 @@
         y: bottom+3
         x: left+10
         anchor_x: left
+
 - time: '+2'
   slides:
     attract_dmd_loop_slide_7:
@@ -116,7 +100,6 @@
         type: move_in
         duration: 1s
         direction: bottom
-
       widgets:
       - type: text
         text: MASTER LOOPER
@@ -132,6 +115,7 @@
         style: medium
         number_grouping: true
         y: bottom
+
 - time: '+2'
   slides:
     attract_dmd_loop_slide_8:

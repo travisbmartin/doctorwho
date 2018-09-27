@@ -76,3 +76,11 @@ coils:
   c_flipper_upper_left_hold:
     number: fulh
     allow_enable: true
+
+  c_flipper_upper_right_main:
+    number: furm
+    default_pulse_ms: 30
+
+  c_flipper_upper_right_hold:
+    number: furh
+    allow_enable: true

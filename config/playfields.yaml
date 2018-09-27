@@ -3,4 +3,4 @@
 playfields:
     playfield:
         tags: default
-        default_source_device: bd_trough
+        default_source_device: None

@@ -18,7 +18,7 @@ config:
 - switches.yaml
 - lights.yaml
 - coils.yaml
-- ball_devices.yaml
+#- ball_devices.yaml
 - machine.yaml
 - modes.yaml
 - player_vars.yaml
@@ -31,7 +31,7 @@ config:
 widget_styles:
   text_default:
     font_name: DEADJIM
-    font_size: 16
+    font_size: 10
     adjust_top: 2
     adjust_bottom: 3
   space title huge:
@@ -57,5 +57,5 @@ widget_styles:
     adjust_top: 2
     adjust_bottom: 3
   tall title:
-    font_name: psycha3
-    font_size: 20
+    font_name: DEADJIM
+    font_size: 15

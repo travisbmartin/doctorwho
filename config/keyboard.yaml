@@ -1,17 +1,17 @@
 #config_version=5
 keyboard:
   s:
-    switch: s_credit
+    switch: s_Start_Button
   1:
     switch: s_trough_1
     toggle: true
   x:
-    switch: s_left_slingshot
+    switch: s_Left_Sling
   z:
-    switch: s_left_flipper
+    switch: s_Left_Flipper_Opto
   /:
-    switch: s_right_flipper
+    switch: s_Right_Flipper_Opto
   .:
-    switch: s_right_slingshot
+    switch: s_Right_Sling
 
     

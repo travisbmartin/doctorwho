@@ -18,7 +18,7 @@ config:
 - switches.yaml
 - lights.yaml
 - coils.yaml
-#- ball_devices.yaml
+- ball_devices.yaml
 - machine.yaml
 - modes.yaml
 - player_vars.yaml

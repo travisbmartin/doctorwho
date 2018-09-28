@@ -13,5 +13,6 @@ keyboard:
     switch: s_Right_Flipper_Opto
   .:
     switch: s_Right_Sling
-
+  l:
+    switch: s_Launch_Ball
     

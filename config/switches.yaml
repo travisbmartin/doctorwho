@@ -15,30 +15,30 @@ switches:
 
   s_Start_Button:
     number: s13
-    tags:
+    tags: start
 
   s_Plimb_Bob_Tilt:
     number: s14
-    tags: Tilt
+    tags: Tilt, playfield_active
 
   s_Left_Sling:
     number: s15
-    tags:
+    tags: playfield_active
 
   s_Right_Sling:
     number: s16
-    tags:
+    tags: playfield_active
 
   s_Shooter_Lane:
     number: s17
-    tags:
+    tags: 
 
   s_Exit_Jets:
     number: s18
-    tags:
+    tags: playfield_active
   s_Slam_Tilt:
     number: s21
-    tags: Tilt
+    tags: Tilt, playfield_active
   s_Coin_Door_Closed:
     number: s22
     tags:
@@ -59,127 +59,127 @@ switches:
     tags: 
   s_Outhole:
     number: s28
-    tags:
+    tags: 
   s_Opto_Popper:
     number: s31
-    tags:
+    tags: playfield_active
   s_Mini_Home_Opto:
     number: s32
-    tags:
+    tags: playfield_active
   s_Enter_Top_Ramp_Opto:
     number: s33
-    tags:
+    tags: playfield_active
   s_Launch_Ball:
     number: s34
-    tags:
+    tags: 
   s_Score_Top_Ramp:
     number: s35
-    tags:
+    tags: playfield_active
   s_Enter_Bottom_Ramp:
     number: s36
-    tags:
+    tags: playfield_active
   s_Score_Bottom_Ramp:
     number: s37
-    tags:
+    tags: playfield_active
   s_Mini_Dalek_Middle:
     number: s38
-    tags:
+    tags: playfield_active
   s_ESCAPE_E1:
     number: s41
-    tags:
+    tags: playfield_active
   s_ESCAPE_S:
     number: s42
-    tags:
+    tags: playfield_active
   s_ESCAPE_C:
     number: s43
-    tags:
+    tags: playfield_active
   s_ESCAPE_A:
     number: s44
-    tags:
+    tags: playfield_active
   s_ESCAPE_P:
     number: s45
-    tags:
+    tags: playfield_active
   s_ESCAPE_E2:
     number: s46
-    tags:
+    tags: playfield_active
   s_Hangon_Score:
     number: s47
-    tags:
+    tags: playfield_active
   s_Select_Doctor:
     number: s48
-    tags:
+    tags: playfield_active
   s_REPAIR_R1:
     number: s51
-    tags:
+    tags: playfield_active
   s_REPAIR_E:
     number: s52
-    tags:
+    tags: playfield_active
   s_REPAIR_P:
     number: s53
-    tags:
+    tags: playfield_active
   s_REPAIR_A:
     number: s54
-    tags:
+    tags: playfield_active
   s_REPAIR_I:
     number: s55
-    tags:
+    tags: playfield_active
   s_REPAIR_R2:
     number: s56
-    tags:
+    tags: playfield_active
   s_Trap_Door_Down:
     number: s57
-    tags:
+    tags: playfield_active
   s_Transmat_Award:
     number: s58
-    tags:
+    tags: playfield_active
   s_Left_Jet:
     number: s61
-    tags:
+    tags: Jet
   s_Right_Jet:
     number: s62
-    tags:
+    tags: Jet
   s_Bottom_Jet:
     number: s63
-    tags:
+    tags: Jet
   s_Left_Drain:
     number: s64
-    tags:
+    tags: playfield_active
   s_Left_Return:
     number: s65
-    tags:
+    tags: playfield_active
   s_Right_Return:
     number: s66
-    tags:
+    tags: playfield_active
   s_Right_Drain:
     number: s67
-    tags:
+    tags: playfield_active
   s_Mini_Dalek_Left:
     number: s68
-    tags:
+    tags: playfield_active
   s_Mini_Opto_5_Bank_Right_1:
     number: s71
-    tags:
+    tags: playfield_active
   s_Mini_Opto_5_Bank_Right_2:
     number: s72
-    tags:
+    tags: playfield_active
   s_Mini_Opto_5_Bank_Middle:
     number: s73
-    tags:
+    tags: playfield_active
   s_Mini_Opto_5_Bank_Left_2:
     number: s74
-    tags:
+    tags: playfield_active
   s_Mini_Opto_5_Bank_Left_1:
     number: s75
-    tags:
+    tags: playfield_active
   s_Mini_Left_Opto_Eject:
     number: s76
-    tags:
+    tags: playfield_active
   s_Mini_Right_Opto_Eject:
     number: s77
-    tags:
+    tags: playfield_active
   s_Mini_Lite_Lock:
     number: s78
-    tags:
+    tags: playfield_active
 
   #s_Not_Used:
   #  number: s81
@@ -211,7 +211,7 @@ switches:
 
   s_Mini_Dalek_Right:
     number: s88
-    tags:
+    tags: playfield_active
 
 #Direct Switches
   s_Left_Coin:

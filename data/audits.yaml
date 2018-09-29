@@ -1,6 +1,6 @@
 events:
   game_ended: 1
-  game_started: 170
+  game_started: 172
 player:
   score:
     average: 1807.0
@@ -22,6 +22,74 @@ shots:
   top_lane_J: 66
   top_lane_M: 68
 switches:
+  s_4th_Coin: 0
+  s_Always_Closed: 0
+  s_Bottom_Jet: 0
+  s_Center_Coin: 0
+  s_Coin_Door_Closed: 0
+  s_ESCAPE_A: 0
+  s_ESCAPE_C: 0
+  s_ESCAPE_E1: 0
+  s_ESCAPE_E2: 0
+  s_ESCAPE_P: 0
+  s_ESCAPE_S: 0
+  s_Enter_Bottom_Ramp: 0
+  s_Enter_Top_Ramp_Opto: 0
+  s_Exit_Jets: 0
+  s_Hangon_Score: 0
+  s_Launch_Ball: 0
+  s_Left_Coin: 0
+  s_Left_Drain: 0
+  s_Left_Flipper_EOS: 0
+  s_Left_Flipper_Opto: 0
+  s_Left_Jet: 0
+  s_Left_Return: 0
+  s_Left_Sling: 0
+  s_Mini_Dalek_Left: 0
+  s_Mini_Dalek_Middle: 0
+  s_Mini_Dalek_Right: 0
+  s_Mini_Home_Opto: 0
+  s_Mini_Left_Opto_Eject: 0
+  s_Mini_Lite_Lock: 0
+  s_Mini_Opto_5_Bank_Left_1: 0
+  s_Mini_Opto_5_Bank_Left_2: 0
+  s_Mini_Opto_5_Bank_Middle: 0
+  s_Mini_Opto_5_Bank_Right_1: 0
+  s_Mini_Opto_5_Bank_Right_2: 0
+  s_Mini_Right_Opto_Eject: 0
+  s_Opto_Popper: 0
+  s_Outhole: 0
+  s_Plimb_Bob_Tilt: 0
+  s_REPAIR_A: 0
+  s_REPAIR_E: 0
+  s_REPAIR_I: 0
+  s_REPAIR_P: 0
+  s_REPAIR_R1: 0
+  s_REPAIR_R2: 0
+  s_Right_Coin: 0
+  s_Right_Drain: 0
+  s_Right_Flipper_EOS: 0
+  s_Right_Flipper_Opto: 0
+  s_Right_Jet: 0
+  s_Right_Return: 0
+  s_Right_Sling: 0
+  s_Score_Bottom_Ramp: 0
+  s_Score_Top_Ramp: 0
+  s_Select_Doctor: 0
+  s_Service_Credit: 0
+  s_Shooter_Lane: 0
+  s_Slam_Tilt: 0
+  s_Start_Button: 0
+  s_Test: 0
+  s_Ticket_Opto: 0
+  s_Transmat_Award: 0
+  s_Trap_Door_Down: 0
+  s_Upper_Left_Flipper_EOS: 0
+  s_Upper_Left_Flipper_Opto: 0
+  s_Upper_Right_Flipper_EOS: 0
+  s_Upper_Right_Flipper_Opto: 0
+  s_Volume_Down: 0
+  s_Volume_Up: 0
   s_cabinet_left: 0
   s_cabinet_right: 0
   s_center_target: 39

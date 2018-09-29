@@ -9,10 +9,15 @@ displays:
     height: 32
     default: true
 
+dmds:
+  dmd:
+    shades: 16
+    fps: 24
+
 window:
   width: 600
   height: 200
-  title: Mission Pinball Framework - Powerman 5000
+  title: Mission Pinball Framework - Doctor Who Redux
   resizable: true
   fullscreen: false
   borderless: false

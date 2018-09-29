@@ -11,24 +11,13 @@
       
 - time: '+2'
   slides:
-    attract_dmd_loop_slide_2:
-      transition:
-        type: move_out
-        duration: 3s
-        direction: top
-      widgets:
-      - type: image
-        image: test
-
-- time: '+5'
-  slides:
     attract_dmd_loop_slide_3:
     - type: text
       text: (machine|credits_string)
 
 - time: '+3'
   slides:
-    attract_dmd_loop_slide_4:
+    attract_dmd_loop_slide_3:
     - type: text
       text: (machine|score1_label)
       anchor_y: top
@@ -48,7 +37,7 @@
 
 - time: '+3'
   slides:
-    attract_dmd_loop_slide_5:
+    attract_dmd_loop_slide_4:
       transition:
         type: move_out
         duration: 1s
@@ -71,7 +60,7 @@
 
 - time: '+2'
   slides:
-    attract_dmd_loop_slide_6:
+    attract_dmd_loop_slide_5:
       transition:
         type: move_in
         duration: 1s
@@ -95,7 +84,7 @@
 
 - time: '+2'
   slides:
-    attract_dmd_loop_slide_7:
+    attract_dmd_loop_slide_6:
       transition:
         type: move_in
         duration: 1s
@@ -118,7 +107,7 @@
 
 - time: '+2'
   slides:
-    attract_dmd_loop_slide_8:
+    attract_dmd_loop_slide_7:
     - type: text
       text: (machine|player1_score)
       number_grouping: true

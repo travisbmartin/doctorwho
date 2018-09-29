@@ -20,7 +20,6 @@ config:
 - coils.yaml
 - ball_devices.yaml
 - machine.yaml
-- modes.yaml
 - player_vars.yaml
 - playfields.yaml
 - sequence_shots.yaml
@@ -28,9 +27,13 @@ config:
 - sounds.yaml
 - videos.yaml
 
+modes:
+- base
+- attract
+
 widget_styles:
   text_default:
-    font_name: DEADJIM
+    font_name: Quadrit
     font_size: 10
     adjust_top: 2
     adjust_bottom: 3
@@ -57,5 +60,5 @@ widget_styles:
     adjust_top: 2
     adjust_bottom: 3
   tall title:
-    font_name: DEADJIM
-    font_size: 15
+    font_name: big_noodle_titling
+    font_size: 20

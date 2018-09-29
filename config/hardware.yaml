@@ -44,12 +44,6 @@ assets:
       track: voice
       load: on_demand
 
-slide_player:
-  mc_ready:
-    window_slide_1:
-      target: window
-  loading_assets: asset_status
-
 slides:
   window_slide_1:
   - type: display
@@ -57,8 +51,8 @@ slides:
     height: 128
     effects:
       - type: dmd
-        dot_color: 00ff00
-        background_color: 000000
+        dot_color: ff5500
+        background_color: 220000
   - type: text
     style: tall title
     text: MISSION PINBALL FRAMEWORK
@@ -72,7 +66,7 @@ slides:
     color: 444444
   - type: text
     style: tall title
-    text: Doctor Who
+    text: DOCTOR WHO
     anchor_x: right
     anchor_y: bottom
     y: bottom+3
@@ -87,3 +81,9 @@ slides:
   asset_status:
   - type: text
     text: "LOADING ASSETS: (percent)%"
+
+slide_player:
+  mc_ready:
+    window_slide_1:
+      target: window
+  loading_assets: asset_status

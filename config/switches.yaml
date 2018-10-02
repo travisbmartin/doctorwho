@@ -16,26 +16,23 @@ switches:
   s_Start_Button:
     number: s13
     tags: start
-
   s_Plimb_Bob_Tilt:
     number: s14
     tags: Tilt, playfield_active
-
   s_Left_Sling:
     number: s15
     tags: playfield_active
-
   s_Right_Sling:
     number: s16
     tags: playfield_active
-
   s_Shooter_Lane:
     number: s17
     tags: 
 
   s_Exit_Jets:
     number: s18
-    tags: playfield_active
+    tags: 
+
   s_Slam_Tilt:
     number: s21
     tags: Tilt, playfield_active
@@ -45,9 +42,11 @@ switches:
   s_Ticket_Opto:
     number: s23
     tags:
+
   s_Always_Closed:
     number: s24
     tags:
+
   s_trough_1:
     number: s25
     tags: 
@@ -62,10 +61,12 @@ switches:
     tags: 
   s_Opto_Popper:
     number: s31
-    tags: playfield_active
+    tags: 
+
   s_Mini_Home_Opto:
     number: s32
     tags: playfield_active
+
   s_Enter_Top_Ramp_Opto:
     number: s33
     tags: playfield_active
@@ -81,6 +82,7 @@ switches:
   s_Score_Bottom_Ramp:
     number: s37
     tags: playfield_active
+
   s_Mini_Dalek_Middle:
     number: s38
     tags: playfield_active
@@ -132,6 +134,7 @@ switches:
   s_Transmat_Award:
     number: s58
     tags: playfield_active
+
   s_Left_Jet:
     number: s61
     tags: Jet
@@ -141,6 +144,7 @@ switches:
   s_Bottom_Jet:
     number: s63
     tags: Jet
+
   s_Left_Drain:
     number: s64
     tags: playfield_active
@@ -171,12 +175,14 @@ switches:
   s_Mini_Opto_5_Bank_Left_1:
     number: s75
     tags: playfield_active
+
   s_Mini_Left_Opto_Eject:
     number: s76
-    tags: playfield_active
+    tags: 
   s_Mini_Right_Opto_Eject:
     number: s77
-    tags: playfield_active
+    tags: 
+
   s_Mini_Lite_Lock:
     number: s78
     tags: playfield_active

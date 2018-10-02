@@ -1,0 +1,8 @@
+#config_version=5
+sequence_shots:
+  bottom_ramp:
+    switch_sequence: s_Enter_Bottom_Ramp, s_Score_Bottom_Ramp
+    sequence_timeout: 3s
+  top_ramp:
+    switch_sequence: s_Enter_Top_Ramp_Opto, s_Score_Top_Ramp
+    sequence_timeout: 3s

@@ -4,11 +4,9 @@ coils:
   c_Trap_Door:
     number: c01
     default_pulse_ms: 25
-
   c_Shooter:
     number: c02
     default_pulse_ms: 25
-
   c_Opto_Popper:
     number: c03
     default_pulse_ms: 25
@@ -28,59 +26,45 @@ coils:
   c_Left_Sling:
     number: c09
     default_pulse_ms: 25
-
   c_Right_Sling:
     number: c10
     default_pulse_ms: 25
-
   c_Left_Jet:
     number: c11
     default_pulse_ms: 25
-
   c_Right_Jet:
     number: c12
     default_pulse_ms: 25
-
   c_Bottom_Jet:
     number: c13
     default_pulse_ms: 25
-
   c_Outhole:
     number: c15
     default_pulse_ms: 25
-
   c_Trough:
     number: c16
     default_pulse_ms: 25
-
   c_flipper_left_main:
     number: fllm
     default_pulse_ms: 30
-
   c_flipper_left_hold:
     number: fllh
     allow_enable: true
-
   c_flipper_right_main:
     number: flrm
     default_pulse_ms: 30
-
   c_flipper_right_hold:
     number: flrh
     allow_enable: true
-
   c_flipper_upper_left_main:
     number: fulm
     default_pulse_ms: 30
-
   c_flipper_upper_left_hold:
     number: fulh
     allow_enable: true
-
   c_flipper_upper_right_main:
     number: furm
     default_pulse_ms: 30
-
   c_flipper_upper_right_hold:
     number: furh
     allow_enable: true

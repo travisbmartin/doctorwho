@@ -19,3 +19,15 @@ ball_devices:
     eject_coil: c_Shooter
     player_controlled_eject_event: s_Launch_Ball_active
     eject_timeouts: 3s
+
+  bd_TARDIS_vuk:
+    ball_switches: s_Opto_Popper
+    eject_coil: c_Opto_Popper
+
+  bd_Left_Lock:
+    ball_switches: s_Mini_Left_Opto_Eject
+    eject_coil: c_Mini_Left_Opto_Eject
+
+  bd_Right_Lock:
+    ball_switches: s_Mini_Right_Opto_Eject
+    eject_coil: c_Mini_Right_Opto_Eject

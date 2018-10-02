@@ -4,19 +4,15 @@ autofire_coils:
     Left_Sling:
         coil: c_Left_Sling
         switch: s_Left_Sling
-
     Right_Sling:
         coil: c_Right_Sling
         switch: s_Right_Sling
-
     Left_Jet:
         coil: c_Left_Jet
         switch: s_Left_Jet
-
     Bottom_Jet:
         coil: c_Bottom_Jet
         switch: s_Bottom_Jet
-
     Right_Jet:
         coil: c_Right_Jet
         switch: s_Right_Jet

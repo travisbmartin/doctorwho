@@ -42,10 +42,10 @@ switches:
   s_Ticket_Opto:
     number: s23
     tags:
-
   s_Always_Closed:
     number: s24
     tags:
+    type: 'NC'
 
   s_trough_1:
     number: s25
@@ -251,7 +251,6 @@ switches:
   s_Test:
     number: sd8
     tags:
-
 #Flipper Switches
 
   s_Right_Flipper_EOS:

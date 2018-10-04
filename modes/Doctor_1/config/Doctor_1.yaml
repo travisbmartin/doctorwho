@@ -1,0 +1,98 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  priority: 120
+
+counters:
+  lb_ESCAPE_complete_count:
+    count_events: ESCAPE_Targets_complete
+    events_when_hit: ESCAPE_Targets_done
+    starting_count: 0
+    direction: up
+    persist_state: false
+
+shots:
+  ESCAPE_E1:
+    switch: s_ESCAPE_E1
+    show_tokens:
+      light: l_ESCAPE_E1
+  ESCAPE_S:
+    switch: s_ESCAPE_S
+    show_tokens:
+      light: l_ESCAPE_S
+  ESCAPE_C:
+    switch: s_ESCAPE_C
+    show_tokens:
+      light: l_ESCAPE_C
+  ESCAPE_A:
+    switch: s_ESCAPE_A
+    show_tokens:
+      light: l_ESCAPE_A
+  ESCAPE_P:
+    switch: s_ESCAPE_P
+    show_tokens:
+      light: l_ESCAPE_P
+  ESCAPE_E2:
+    switch: s_ESCAPE_E2
+    show_tokens:
+      light: l_ESCAPE_E2
+               
+
+shot_groups:
+  ESCAPE_Targets:
+    shots: ESCAPE_E1, ESCAPE_S, ESCAPE_C, ESCAPE_A, ESCAPE_P, ESCAPE_E2
+    reset_events: 
+      ESCAPE_Targets_complete: 1s
+
+variable_player:
+
+  ESCAPE_Targets_done{count==1}:
+    score: 500000 * current_player.pf_multiplier|block
+
+  ESCAPE_Targets_done{count==2}:
+    score: 1000000 * current_player.pf_multiplier|block
+
+  ESCAPE_Targets_done{count==3}:
+    score: 2000000 * current_player.pf_multiplier|block
+
+  ESCAPE_Targets_done{count==4}:
+    score: 3000000 * current_player.pf_multiplier|block
+
+  ESCAPE_Targets_done{count==5}:
+    score: 4000000 * current_player.pf_multiplier|block
+
+  ESCAPE_Targets_done{count>=6}:
+    score: 1000000 * current_player.pf_multiplier|block
+
+show_player:
+
+  ESCAPE_Targets_done{count==1}:
+    ESCAPE_500K_On:
+      show_tokens:
+        lights: ESCAPE_500K
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_1
+
+  ESCAPE_Targets_done{count==2}:
+    ESCAPE_1Mil_On:
+      show_tokens:
+        lights: ESCAPE_500K, ESCAPE_1Mil
+
+  ESCAPE_Targets_done{count==3}:
+    ESCAPE_2Mil_On:
+      show_tokens:
+        lights: ESCAPE_500K, ESCAPE_1Mil, ESCAPE_2Mil
+
+  ESCAPE_Targets_done{count==4}:
+    ESCAPE_3Mil_On:
+      show_tokens:
+        lights: ESCAPE_500K, ESCAPE_1Mil, ESCAPE_2Mil, ESCAPE_3Mil
+
+  ESCAPE_Targets_done{count==5}:
+    ESCAPE_Special_On:
+      show_tokens:
+          lights: ESCAPE_500K, ESCAPE_1Mil, ESCAPE_2Mil, ESCAPE_3Mil, ESCAPE_Special

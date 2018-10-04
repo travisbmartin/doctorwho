@@ -31,6 +31,7 @@ config:
 modes:
 - base
 - attract
+- Doctor_1
 
 widget_styles:
   text_default:

@@ -1,3 +1,6 @@
 #config_version=5
 
-#player_vars:
+player_vars:
+  pf_multiplier:
+    value_type: int
+    initial_value: 1

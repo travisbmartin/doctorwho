@@ -6,31 +6,26 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_S:
     number: l12
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_C:
     number: l13
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_A:
     number: l14
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_P:
     number: l15
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_E2:
     number: l16
     subtype: matrix
@@ -72,25 +67,21 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_3Mil:
     number: l25
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_2Mil:
     number: l26
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_1Mil:
     number: l27
     subtype: matrix
     label:
     tags:
-
   l_ESCAPE_500K:
     number: l28
     subtype: matrix

@@ -15,4 +15,18 @@ keyboard:
     switch: s_Right_Sling
   l:
     switch: s_Launch_Ball
+
+
+  2:
+    switch: s_ESCAPE_E1
+  3:
+    switch: s_ESCAPE_S
+  4:
+    switch: s_ESCAPE_C
+  5:
+    switch: s_ESCAPE_A
+  6:
+    switch: s_ESCAPE_P
+  7:
+    switch: s_ESCAPE_E2
     

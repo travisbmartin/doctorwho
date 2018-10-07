@@ -1,0 +1,75 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  priority: 120
+
+counters:
+  lb_Hang_On_complete_count:
+    count_events: Hang_On_Shot_complete
+    events_when_hit: Hang_On_Shot_done
+    starting_count: 0
+    direction: up
+    persist_state: false
+
+shots:
+  Hang_On_Score:
+    switch: s_Hangon_Score
+  Top_Ramp_Enter:
+    switch: s_Enter_Top_Ramp_Opto
+  Top_Ramp_Score:
+    switch: s_Score_Top_Ramp
+
+shot_groups:
+  Hang_On_Shot:
+    shots: Hang_On_Score, Top_Ramp_Enter, Top_Ramp_Score
+    reset_events: 
+      Hang_On_Shot_complete: 5s
+
+variable_player:
+  Hang_On_Shot_done:
+    score: 5000000
+
+show_player:
+    
+  mode_Doctor_2_started:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Hangon_Score
+
+  Hang_On_Score_hit:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: f_Doctor_6_O
+    Hangon_On:
+      show_tokens:
+        lights: Hangon_On
+
+  Top_Ramp_Enter_Hit:
+    Doctor_6_O_On:
+      show_tokens:
+        lights: Doctor_6_O_On
+    Hangon_Off:
+        show_tokens:
+            lights: Hangon_Off
+  
+  Top_Ramp_Score_Hit:
+    Doctor_6_O_Off:
+      show_tokens:
+        lights: Doctor_6_O_Off
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Hangon_Score
+
+  Hang_On_Shot_done:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_2

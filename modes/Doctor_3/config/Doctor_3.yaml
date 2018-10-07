@@ -1,0 +1,111 @@
+#config_version=5
+
+#spell W-H-O
+
+mode:
+  start_events: ball_starting
+  priority: 120
+
+counters:
+  lb_WHO_complete_count:
+    count_events: WHO_Shot_complete
+    events_when_hit: WHO_Shot_done
+    starting_count: 0
+    direction: up
+    persist_state: false
+
+shots:
+  Hang_On_Score:
+    switch: s_Hangon_Score
+  Top_Ramp_Enter:
+    switch: s_Enter_Top_Ramp_Opto
+  Top_Ramp_Score:
+    switch: s_Score_Top_Ramp
+  Bottom_Ramp_Enter:
+    switch: s_Enter_Bottom_Ramp
+  Bottom_Ramp_Score:
+    switch: s_Score_Bottom_Ramp
+
+shot_groups:
+  WHO_Shot:
+    shots: Hang_On_Score, Top_Ramp_Enter, Top_Ramp_Score, Bottom_Ramp_Enter, Bottom_Ramp_Score
+    reset_events: 
+      WHO_Shot_complete: 10s
+
+variable_player:
+  WHO_Shot_done{count==1}:
+    score: 100000 * current_player.pf_multiplier|block
+
+  WHO_Shot_done{count==2}:
+    score: 2000000 * current_player.pf_multiplier|block
+
+  WHO_Shot_done{count==3}:
+    score: 3000000 * current_player.pf_multiplier|block
+
+  WHO_Shot_done{count==4}: #Extra Ball
+    score: 4000000 * current_player.pf_multiplier|block
+
+show_player:
+  mode_Doctor_3_started:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Hangon_Score
+
+  Hang_On_Score_hit:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: f_Doctor_3_H
+    Hangon_On:
+      show_tokens:
+        lights: Hangon_On
+
+  Bottom_Ramp_Enter_Hit:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: f_Doctor_3_H
+    Hangon_Off:
+      show_tokens:
+        lights: Hangon_Off
+  
+  Bottom_Ramp_Score_Hit:
+    Doctor_3_H_Off:
+      show_tokens:
+        lights: Doctor_3_H_Off
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: f_Doctor_6_O
+
+  Top_Ramp_Enter_Hit:
+    Doctor_6_O_Off:
+      show_tokens:
+        lights: Doctor_6_O_Off
+
+  WHO_Shot_done{count>=1}:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_3
+
+  WHO_Shot_done{count==1}:
+    Light_1Mil:
+      show_tokens:
+        lights: l_WHO_1Mil
+
+  WHO_Shot_done{count==2}:
+    Light_2Mil:
+      show_tokens:
+        lights: l_WHO_2Mil
+
+  WHO_Shot_done{count==3}:
+    Light_Extra_Ball:
+      show_tokens:
+        lights: l_WHO_Extra_Ball

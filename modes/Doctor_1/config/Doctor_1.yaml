@@ -36,8 +36,7 @@ shots:
   ESCAPE_E2:
     switch: s_ESCAPE_E2
     show_tokens:
-      light: l_ESCAPE_E2
-               
+      light: l_ESCAPE_E2               
 
 shot_groups:
   ESCAPE_Targets:
@@ -46,7 +45,6 @@ shot_groups:
       ESCAPE_Targets_complete: 1s
 
 variable_player:
-
   ESCAPE_Targets_done{count==1}:
     score: 500000 * current_player.pf_multiplier|block
 
@@ -61,12 +59,16 @@ variable_player:
 
   ESCAPE_Targets_done{count==5}:
     score: 4000000 * current_player.pf_multiplier|block
+    #change this to award an extra ball or special
 
   ESCAPE_Targets_done{count>=6}:
     score: 1000000 * current_player.pf_multiplier|block
 
 show_player:
-
+  ESCAPE_Targets_done{count==0}:
+    Doctor_1_On:
+        show_tokens:
+            lights: Doctor_1_On
   ESCAPE_Targets_done{count==1}:
     ESCAPE_500K_On:
       show_tokens:

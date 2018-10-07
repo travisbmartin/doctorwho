@@ -32,6 +32,8 @@ modes:
 - base
 - attract
 - Doctor_1
+#- Doctor_2
+- Doctor_3
 
 widget_styles:
   text_default:

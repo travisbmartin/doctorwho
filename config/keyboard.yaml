@@ -29,4 +29,10 @@ keyboard:
     switch: s_ESCAPE_P
   7:
     switch: s_ESCAPE_E2
-    
+
+  o:
+    switch: s_Enter_Top_Ramp_Opto
+  p:
+    switch: s_Score_Top_Ramp
+  i:
+    switch: s_Hangon_Score

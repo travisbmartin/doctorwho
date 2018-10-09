@@ -18,17 +18,17 @@ keyboard:
 
 
   2:
-    switch: s_ESCAPE_E1
+    switch: s_REPAIR_R1
   3:
-    switch: s_ESCAPE_S
+    switch: s_REPAIR_E
   4:
-    switch: s_ESCAPE_C
+    switch: s_REPAIR_P
   5:
-    switch: s_ESCAPE_A
+    switch: s_REPAIR_A
   6:
-    switch: s_ESCAPE_P
+    switch: s_REPAIR_I
   7:
-    switch: s_ESCAPE_E2
+    switch: s_REPAIR_R2
 
   o:
     switch: s_Enter_Top_Ramp_Opto

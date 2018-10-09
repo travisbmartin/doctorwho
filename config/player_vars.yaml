@@ -2,5 +2,5 @@
 
 player_vars:
   pf_multiplier:
-    value_type: int
+    value_type: float
     initial_value: 1

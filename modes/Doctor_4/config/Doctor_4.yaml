@@ -1,0 +1,61 @@
+#config_version=5
+
+mode:
+  start_events: ball_starting
+  priority: 120
+
+counters:
+  lb_REPAIR_complete_count:
+    count_events: REPAIR_Targets_complete
+    events_when_hit: REPAIR_Targets_done
+    starting_count: 0
+    direction: up
+    persist_state: false
+
+shots:
+  REPAIR_R1:
+    switch: s_REPAIR_R1
+    show_tokens:
+      light: l_REPAIR_R1
+  REPAIR_E:
+    switch: s_REPAIR_E
+    show_tokens:
+      light: l_REPAIR_E
+  REPAIR_P:
+    switch: s_REPAIR_P
+    show_tokens:
+      light: l_REPAIR_P
+  REPAIR_A:
+    switch: s_REPAIR_A
+    show_tokens:
+      light: l_REPAIR_A
+  REPAIR_I:
+    switch: s_REPAIR_I
+    show_tokens:
+      light: l_REPAIR_I
+  REPAIR_R2:
+    switch: s_REPAIR_R2
+    show_tokens:
+      light: l_REPAIR_R2               
+
+shot_groups:
+  REPAIR_Targets:
+    shots: REPAIR_R1, REPAIR_E, REPAIR_P, REPAIR_A, REPAIR_I, REPAIR_R2
+    reset_events: 
+      REPAIR_Targets_complete: 1s
+
+variable_player:
+  REPAIR_Targets_done{count>=1}:
+    score: 1000000 * current_player.pf_multiplier|block
+
+show_player:
+  REPAIR_Targets_done{count==0}:
+    Doctor_4_On:
+        show_tokens:
+            lights: Doctor_4_On
+  REPAIR_Targets_done{count==1}:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_4

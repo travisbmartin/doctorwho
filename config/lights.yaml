@@ -123,7 +123,6 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_Hangon_Score:
     number: l37
     subtype: matrix
@@ -237,31 +236,26 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_REPAIR_E:
     number: l62
     subtype: matrix
     label:
     tags:
-
   l_REPAIR_P:
     number: l63
     subtype: matrix
     label:
     tags:
-
-  l_REAPAIR_A:
+  l_REPAIR_A:
     number: l64
     subtype: matrix
     label:
     tags:
-
-  l_REAPAIR_I:
+  l_REPAIR_I:
     number: l65
     subtype: matrix
     label:
     tags:
-
   l_REPAIR_R2:
     number: l66
     subtype: matrix
@@ -297,31 +291,26 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_2X:
     number: l74
     subtype: matrix
     label:
     tags:
-
   l_2_5X:
     number: l75
     subtype: matrix
     label:
     tags:
-
   l_3X:
     number: l76
     subtype: matrix
     label:
     tags:
-
   l_3_5X:
     number: l77
     subtype: matrix
     label:
     tags:
-
   l_4X:
     number: l78
     subtype: matrix
@@ -345,13 +334,11 @@ lights:
     subtype: matrix
     label:
     tags:
-
   l_WHO_2Mil:
     number: l84
     subtype: matrix
     label:
     tags:
-
   l_WHO_Extra_Ball:
     number: l85
     subtype: matrix

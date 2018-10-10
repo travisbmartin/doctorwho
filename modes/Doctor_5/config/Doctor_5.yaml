@@ -1,0 +1,22 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+  stop_events: ball_ended
+  priority: 120
+
+counters:
+  lb_Super_Pops_count:
+    count_events: s_Left_Jet_active, s_Right_Jet_active, s_Bottom_Jet_active
+    events_when_hit: Super_Pops_Hit
+    starting_count: 50
+    direction: down
+    persist_state: false
+
+variable_player:
+  s_Left_Jet_active:
+    score: 5000 * current_player.pf_multiplier|block
+  s_Right_Jet_active:
+    score: 5000 * current_player.pf_multiplier|block
+  s_Bottom_Jet_active:
+    score: 5000 * current_player.pf_multiplier|block

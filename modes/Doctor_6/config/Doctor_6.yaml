@@ -2,6 +2,7 @@
 
 mode:
   start_events: ball_starting
+  stop_events: ball_ended
   priority: 120
 
 counters:
@@ -25,8 +26,6 @@ shot_groups:
       Top_Ramp_Shot_complete: 1s
 
 variable_player:
-  Top_Ramp_Shot_complete:
-    score: 5000000 * current_player.pf_multiplier|block
   mode_Doctor_6_started:
     pf_multiplier:
       float: 1
@@ -55,38 +54,16 @@ variable_player:
     pf_multiplier:
       float: 4
       action: set
+  Top_Ramp_Shot_complete:
+    score: 5000000 * current_player.pf_multiplier|block
 
 show_player:
-  Top_Ramp_done{count<=6}:      
+  mode_Doctor_6_started:
     flash:
       loops: -1
       speed: 10
       show_tokens:
-        lights: f_Doctor_6_O
-
-  Top_Ramp_Enter_Hit:
-    Doctor_6_O_On:
-      show_tokens:
-        lights: Doctor_6_O_On
-
-  Top_Ramp_Score_Hit:
-    Doctor_6_O_Off:
-      show_tokens:
-        lights: Doctor_6_O_Off
-
-  Top_Ramp_done{count>=2}:
-    flash:
-      loops: -1
-      speed: 10
-      show_tokens:
-        lights: l_Doctor_6
-
-  Top_Ramp_done{count<=1}:
-    flash:
-      loops: -1
-      speed: 10
-      show_tokens:
-        lights: l_1_5X
+        lights: l_1_5X, f_Doctor_6_O
   Top_Ramp_done{count==2}:
     Playfield_1_5X_On:
       show_tokens:
@@ -95,7 +72,7 @@ show_player:
       loops: -1
       speed: 10
       show_tokens:
-        lights: l_2X
+        lights: l_2X, l_Doctor_6, f_Doctor_6_O
   Top_Ramp_done{count==3}:
     Playfield_2X_On:
       show_tokens:
@@ -104,7 +81,7 @@ show_player:
       loops: -1
       speed: 10
       show_tokens:
-        lights: l_2_5X
+        lights: l_2_5X, l_Doctor_6, f_Doctor_6_O
   Top_Ramp_done{count==4}:
     Playfield_2_5X_On:
       show_tokens:
@@ -113,7 +90,7 @@ show_player:
       loops: -1
       speed: 10
       show_tokens:
-        lights: l_3X
+        lights: l_3X, l_Doctor_6, f_Doctor_6_O
   Top_Ramp_done{count==5}:
     Playfield_3X_On:
       show_tokens:
@@ -122,7 +99,7 @@ show_player:
       loops: -1
       speed: 10
       show_tokens:
-        lights: l_3_5X
+        lights: l_3_5X, l_Doctor_6, f_Doctor_6_O
   Top_Ramp_done{count==6}:
     Playfield_3_5X_On:
       show_tokens:
@@ -131,8 +108,13 @@ show_player:
       loops: -1
       speed: 10
       show_tokens:
-        lights: l_4X
+        lights: l_4X, l_Doctor_6, f_Doctor_6_O
   Top_Ramp_done{count>=7}:
     Playfield_4X_On:
       show_tokens:
         lights: l_1_5X, l_2X, l_2_5X, l_3X, l_3_5X, l_4X
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_6

@@ -36,3 +36,11 @@ keyboard:
     switch: s_Score_Top_Ramp
   i:
     switch: s_Hangon_Score
+
+
+  b:
+    switch: s_Left_Jet
+  n:
+    switch: s_Right_Jet
+  m:
+    switch: s_Bottom_Jet

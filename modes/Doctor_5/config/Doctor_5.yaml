@@ -6,11 +6,24 @@ mode:
   priority: 120
 
 counters:
-  lb_Super_Pops_count:
+  Super_Pops_count:
     count_events: s_Left_Jet_active, s_Right_Jet_active, s_Bottom_Jet_active
-    events_when_hit: Super_Pops_Hit
-    starting_count: 50
+    reset_events: tier_hit
+    events_when_hit: pop_hit
+    starting_count: 5
+    count_complete_value: 0
     direction: down
+    events_when_complete: Super_Pops_done
+    disable_on_complete: false
+    reset_on_complete: true
+    persist_state: false
+    debug: true
+
+  Super_Pops_Tier_count:
+    count_events: Super_Pops_done
+    events_when_hit: tier_hit
+    starting_count: 0
+    direction: up
     persist_state: false
 
 variable_player:
@@ -20,3 +33,11 @@ variable_player:
     score: 5000 * current_player.pf_multiplier|block
   s_Bottom_Jet_active:
     score: 5000 * current_player.pf_multiplier|block
+
+show_player:
+  tier_hit{count>=1}:
+    flash:
+      loops: -1
+      speed: 10
+      show_tokens:
+        lights: l_Doctor_5

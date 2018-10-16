@@ -31,7 +31,7 @@ switches:
 
   s_Exit_Jets:
     number: s18
-    tags: 
+    tags: sw_TARDIS_enter
 
   s_Slam_Tilt:
     number: s21
@@ -109,7 +109,7 @@ switches:
     tags: playfield_active
   s_Select_Doctor:
     number: s48
-    tags: playfield_active
+    tags: playfield_active, sw_Select_Doctor
   s_REPAIR_R1:
     number: s51
     tags: playfield_active

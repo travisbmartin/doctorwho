@@ -30,21 +30,23 @@ config:
 modes:
 - base
 - attract
+- regeneration
+- TARDIS_lit
 #- Doctor_1
 #- Doctor_2
 #- Doctor_3
 #- Doctor_4
-- Doctor_5
+#- Doctor_5
 #- Doctor_6
 #- Doctor_7
 #- Doctor_8
-#- Doctor_WAR
+#- Doctor_War
 #- Doctor_9
 #- Doctor_10
 #- Doctor_11
 #- Doctor_12
 #- Doctor_13
-
+#- Gallifrey_Stands
 
 widget_styles:
   text_default:

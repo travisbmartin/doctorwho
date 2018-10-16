@@ -1,0 +1,17 @@
+#configversion=5
+
+mode:
+  priority: 102
+  start_events: ball_starting, sw_TARDIS_enter
+  stop_events: balldevice_TARDIS_vuk_enter
+
+event_player:
+  mode_TARDIS_lit_stopping: unlight_TARDIS
+  mode_TARDIS_lit_started: light_TARDIS
+
+counters:
+   initialize_TARDIS:
+      count_events: mode_TARDIS_lit_started
+      events_when_complete: initialize_TARDIS
+      count_complete_value: 1
+      persist_state: true

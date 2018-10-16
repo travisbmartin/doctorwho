@@ -1,0 +1,29 @@
+#configversion=5
+
+mode:
+  priority: 101
+  start_events: ball_starting
+
+achievement_groups:
+  TARDIS_awards_1:
+    achievements:
+        - Doctor_1
+        - Doctor_2
+        - Doctor_3
+        - Doctor_4
+        - Doctor_5
+        - Doctor_6
+        - Doctor_7
+        - Doctor_8
+    show_tokens:
+      lights: l_TARDIS
+    auto_select: yes
+    events_when_all_completed: select_Doctor_War
+    enable_while_no_achievement_started: yes
+    show_when_enabled: on
+    select_random_achievement_events: sw_Select_Doctor
+    allow_selection_change_while_disabled: no
+    disable_while_achievement_started: no
+    start_selected_events: balldevice_TARDIS_vuk
+    enable_events: light_TARDIS
+    disable_events: unlight_TARDIS

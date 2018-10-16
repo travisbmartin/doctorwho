@@ -1,0 +1,8 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+  stop_events: ball_ended
+  priority: 120
+
+#raise up mini playfield to station 2 and hit targets

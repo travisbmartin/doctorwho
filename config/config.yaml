@@ -30,7 +30,6 @@ config:
 modes:
 - base
 - attract
-- regeneration
 - TARDIS_lit
 #- Doctor_1
 #- Doctor_2

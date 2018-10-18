@@ -44,3 +44,6 @@ keyboard:
     switch: s_Right_Jet
   m:
     switch: s_Bottom_Jet
+
+  t:
+    switch: s_Opto_Popper

@@ -1,0 +1,12 @@
+#config_version=5
+
+mode:
+  start_events: ball_ended
+  stop_events: ball_started
+  priority: 100
+  game_mode: false   # this is needed to interfere with game start
+
+queue_relay_player:
+  player_turn_starting{player.ball==0}:
+    post: show_mode_selection       # use this event to enable selection
+    wait_for: selection_mode_ended  # make sure you post this event is posted when a selection was made

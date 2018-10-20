@@ -30,11 +30,11 @@ config:
 modes:
 - base
 - attract
-- TARDIS_lit
-#- Doctor_1
-#- Doctor_2
-#- Doctor_3
-#- Doctor_4
+- carousel
+- Doctor_1
+- Doctor_2
+- Doctor_3
+- Doctor_4
 #- Doctor_5
 #- Doctor_6
 #- Doctor_7

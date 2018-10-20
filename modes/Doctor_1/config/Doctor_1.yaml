@@ -1,9 +1,9 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting
+  start_events: carousel_Doctor1_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 counters:
   lb_ESCAPE_complete_count:

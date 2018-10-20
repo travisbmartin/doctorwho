@@ -47,3 +47,4 @@ keyboard:
 
   t:
     switch: s_Opto_Popper
+    toggle: true

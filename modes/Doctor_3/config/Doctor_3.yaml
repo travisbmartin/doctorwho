@@ -3,7 +3,7 @@
 #spell W-H-O
 
 mode:
-  start_events: ball_starting
+  start_events: carousel_Doctor2_selected
   stop_events: ball_ended
   priority: 120
 
@@ -16,12 +16,6 @@ counters:
     persist_state: false
 
 shots:
-  Hang_On_Score:
-    switch: s_Hangon_Score
-  Top_Ramp_Enter:
-    switch: s_Enter_Top_Ramp_Opto
-  Top_Ramp_Score:
-    switch: s_Score_Top_Ramp
   Bottom_Ramp_Enter:
     switch: s_Enter_Bottom_Ramp
   Bottom_Ramp_Score:

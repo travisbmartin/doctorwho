@@ -5,4 +5,9 @@ mode:
   stop_events: ball_ended
   priority: 130
 
+show_player:
+  mode_Doctor_8_started:
+    mcgann:
+      loops: 0
+      speed: 1
 #raise up mini playfield to station 2 and hit targets

@@ -2,11 +2,11 @@
 
 - time: 0
   slides:
-    davison_intro:
+    mccoy_intro:
     - type: video
-      video: davison
+      video: mccoy
       volume: 1
       auto_play: True
       end_behavior: stop
 
-- time: +6
+- time: +5

@@ -2,9 +2,9 @@
 
 - time: 0
   slides:
-    davison_intro:
+    mcgann_intro:
     - type: video
-      video: davison
+      video: mcgann
       volume: 1
       auto_play: True
       end_behavior: stop

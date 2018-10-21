@@ -2,11 +2,11 @@
 
 - time: 0
   slides:
-    davison_intro:
+    cbaker_intro:
     - type: video
-      video: davison
+      video: cbaker
       volume: 1
       auto_play: True
       end_behavior: stop
 
-- time: +6
+- time: +5

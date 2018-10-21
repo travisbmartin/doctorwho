@@ -1,8 +1,8 @@
 #config_version=5
 
 mode:
-  start_events: ball_started
+  start_events: carousel_Doctor7_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 #raise up mini playfield to station 2 and hit targets

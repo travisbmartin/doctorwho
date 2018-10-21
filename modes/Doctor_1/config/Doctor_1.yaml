@@ -99,3 +99,8 @@ show_player:
     ESCAPE_Special_On:
       show_tokens:
           lights: ESCAPE_500K, ESCAPE_1Mil, ESCAPE_2Mil, ESCAPE_3Mil, ESCAPE_Special
+
+  mode_Doctor_1_started:
+    hartnell:
+      loops: 0
+      speed: 1

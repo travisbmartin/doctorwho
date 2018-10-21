@@ -1,3 +1,27 @@
 #config_version=5
 
-#videos: 
+videos: 
+  hartnell:
+    width: 100
+    height: 70
+    file: hartnell.mp4
+
+  troughton:
+    width: 100
+    height: 70
+    file: troughton.mp4
+
+  pertwee:
+    width: 100
+    height: 70
+    file: pertwee.mp4
+
+  tbaker:
+    width: 100
+    height: 70
+    file: tbaker.mp4
+
+  davison:
+    width: 50
+    height: 35
+    file: davison.mp4

@@ -1,9 +1,9 @@
 #config_version=5
 
 mode:
-  start_events: ball_started
+  start_events: carousel_Doctor5_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 counters:
   Super_Pops_count:
@@ -35,6 +35,11 @@ variable_player:
     score: 5000 * current_player.pf_multiplier|block
 
 show_player:
+  mode_Doctor_5_started:
+    davison:
+      loops: 0
+      speed: 1
+
   tier_hit{count>=1}:
     flash:
       loops: -1

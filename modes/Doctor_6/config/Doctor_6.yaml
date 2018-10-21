@@ -1,9 +1,9 @@
 #config_version=5
 
 mode:
-  start_events: ball_starting
+  start_events: carousel_Doctor6_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 counters:
   lb_Top_Ramp_count:
@@ -12,12 +12,6 @@ counters:
     starting_count: 1
     direction: up
     persist_state: false
-
-shots:
-  Top_Ramp_Enter:
-    switch: s_Enter_Top_Ramp_Opto
-  Top_Ramp_Score:
-    switch: s_Score_Top_Ramp
 
 shot_groups:
   Top_Ramp_Shot:

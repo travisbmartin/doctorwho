@@ -1,0 +1,12 @@
+#show_version=5
+
+- time: 0
+  slides:
+    hartnell_intro:
+    - type: video
+      video: hartnell
+      volume: 1
+      auto_play: True
+      end_behavior: stop
+
+- time: +12

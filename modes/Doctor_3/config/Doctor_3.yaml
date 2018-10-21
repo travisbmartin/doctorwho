@@ -3,9 +3,9 @@
 #spell W-H-O
 
 mode:
-  start_events: carousel_Doctor2_selected
+  start_events: carousel_Doctor3_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 counters:
   lb_WHO_complete_count:
@@ -42,6 +42,9 @@ variable_player:
 
 show_player:
   mode_Doctor_3_started:
+    pertwee:
+      loops: 0
+      speed: 1
     flash:
       loops: -1
       speed: 10

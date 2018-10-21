@@ -1,0 +1,12 @@
+#show_version=5
+
+- time: 0
+  slides:
+    troughton_intro:
+    - type: video
+      video: troughton
+      volume: 1
+      auto_play: True
+      end_behavior: stop
+
+- time: +5

@@ -3,7 +3,7 @@
 mode:
   start_events: carousel_Doctor4_selected
   stop_events: ball_ended
-  priority: 120
+  priority: 130
 
 counters:
   lb_REPAIR_complete_count:
@@ -50,6 +50,10 @@ variable_player:
     score: 1000000 * current_player.pf_multiplier|block
 
 show_player:
+  mode_Doctor_4_started:
+    tbaker:
+      loops: 0
+      speed: 1
   REPAIR_Targets_done{count==0}:
     Doctor_4_On:
         show_tokens:

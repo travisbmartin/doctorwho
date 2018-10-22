@@ -1,6 +1,9 @@
 
 *.log
+<<<<<<< HEAD
 *.mp4
 *.mp3
 *.wav
 data/audits.yaml
+=======
+>>>>>>> parent of 69e98af... added ignore mp3, mp4, wav

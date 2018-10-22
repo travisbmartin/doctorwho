@@ -25,18 +25,3 @@ videos:
     width: 50
     height: 35
     file: davison.mp4
-
-  cbaker:
-    width: 100
-    height: 70
-    file: cbaker.mp4
-
-  mccoy:
-    width: 100
-    height: 70
-    file: mccoy.mp4
-
-  mcgann:
-    width: 80
-    height: 56
-    file: mcgann.mp4

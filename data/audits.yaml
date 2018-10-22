@@ -1,6 +1,10 @@
 events:
   game_ended: 1
+<<<<<<< HEAD
   game_started: 340
+=======
+  game_started: 334
+>>>>>>> travisbmartin-patch-1
 player:
   score:
     average: 1807.0

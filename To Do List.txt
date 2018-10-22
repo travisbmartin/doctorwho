@@ -1,0 +1,20 @@
+To Do List
+
+Make Moving Playfield work in MPF
+Set up trapdoor
+Finish Doctor 7 Mode
+Finish Doctor 8 Mode
+Rebuild/Edit videos for Doctor Selects
+Make Image Slides for Doctors 1-13
+Set up so collecting Doctors 1-8 readies and starts War Doctor
+Set up to Finishing War Doctor startes Doctors 9-13 Carousel
+FInishing Doctors 9-13 starts Gallifrey Stands
+Set up Companion Collection
+Set up Master Hurry Up
+
+Sounds
+Music
+Video
+Images
+Easter Eggs
+Integrate Dalek Wobble Head

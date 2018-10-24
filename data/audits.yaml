@@ -1,30 +1,11 @@
 events:
-  game_ended: 1
-<<<<<<< HEAD
-  game_started: 340
-=======
-  game_started: 334
->>>>>>> travisbmartin-patch-1
+  game_ended: 0
+  game_started: 3
 player:
   score:
-    average: 1807.0
-    top:
-    - 1807
-    total: 1
-shots:
-  Bombshell_Level_1: 7
-  HEAVY: 22
-  L_Pop: 32
-  Level_1: 32
-  Level_2: 22
-  Level_3: 7
-  METAL: 7
-  M_Pop: 31
-  R_Pop: 27
-  eject_chamber: 8
-  top_lane_A: 80
-  top_lane_J: 66
-  top_lane_M: 68
+    average: 0
+    top: []
+    total: 0
 switches:
   s_4th_Coin: 0
   s_Always_Closed: 0
@@ -94,45 +75,6 @@ switches:
   s_Upper_Right_Flipper_Opto: 0
   s_Volume_Down: 0
   s_Volume_Up: 0
-  s_cabinet_left: 0
-  s_cabinet_right: 0
-  s_center_target: 39
-  s_coins_left: 0
-  s_coins_middle: 0
-  s_coins_right: 0
-  s_credit: 6
-  s_eject_chamber: 8
-  s_heavy_target: 22
-  s_left_25K_target: 0
-  s_left_bumper: 32
-  s_left_flipper: 0
-  s_left_outlane: 0
-  s_left_return_lane: 0
-  s_left_rollover: 0
-  s_left_saucer: 0
-  s_left_slingshot: 0
-  s_load_chamber: 0
-  s_metal_target: 7
-  s_middle_bumper: 31
-  s_outhole: 0
-  s_ramp_drop_target: 0
-  s_right_25K_target: 0
-  s_right_bumper: 27
-  s_right_flipper: 0
-  s_right_outlane: 0
-  s_right_return_lane: 0
-  s_right_rollover: 0
-  s_right_saucer: 0
-  s_right_slingshot: 0
-  s_slam: 0
-  s_tilt: 0
-  s_top_25K_lane: 0
-  s_top_50K_lane: 0
-  s_top_lane_A: 80
-  s_top_lane_J: 66
-  s_top_lane_M: 68
-  s_trough_1: 41
+  s_trough_1: 0
   s_trough_2: 0
   s_trough_3: 0
-  s_trough_4: 0
-  s_trough_5: 0

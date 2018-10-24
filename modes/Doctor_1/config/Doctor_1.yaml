@@ -79,17 +79,14 @@ show_player:
       speed: 10
       show_tokens:
         lights: l_Doctor_1
-
   ESCAPE_Targets_done{count==2}:
     ESCAPE_1Mil_On:
       show_tokens:
         lights: ESCAPE_500K, ESCAPE_1Mil
-
   ESCAPE_Targets_done{count==3}:
     ESCAPE_2Mil_On:
       show_tokens:
         lights: ESCAPE_500K, ESCAPE_1Mil, ESCAPE_2Mil
-
   ESCAPE_Targets_done{count==4}:
     ESCAPE_3Mil_On:
       show_tokens:

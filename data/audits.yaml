@@ -1,6 +1,6 @@
 events:
   game_ended: 0
-  game_started: 3
+  game_started: 8
 player:
   score:
     average: 0
